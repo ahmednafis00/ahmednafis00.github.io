@@ -1,7 +1,7 @@
 html, body { height: 100%; }
 
 body {
-    padding-top: 50px;
+    padding-top: 80px;
     align-items: center;
     background-color: #000000;
 }
@@ -17,14 +17,14 @@ h1 {
 .icons {
     text-align: center;
     display: inline-block;
-    font-size: 60px;
+    font-size: 50px;
     color: #d3d3d3;
     transition-duration: 0.3s;
 }
   
 .icons:hover {
     color: #808080;
-    font-size: 80px;
+    font-size: 75px;
 }
   
 .background {
