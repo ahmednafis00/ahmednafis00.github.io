@@ -1,8 +1,10 @@
 html, body { height: 100%; }
 
 body {
+    padding-top: 1%;
     align-items: center;
     background-color: #000000;
+    overflow: hidden;
 }
   
 h1 {
