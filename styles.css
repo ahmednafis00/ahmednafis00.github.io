@@ -1,10 +1,9 @@
 html, body { height: 100%; }
 
 body {
-    padding-top: 1%;
+    padding-top: 50px;
     align-items: center;
     background-color: #000000;
-    overflow: hidden;
 }
   
 h1 {
@@ -12,6 +11,7 @@ h1 {
     font-family: Crimson Text;
     font-size: 100px;
     color: #d3d3d3; 
+    overflow: hidden;
 }
   
 .icons {
