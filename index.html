@@ -1,2 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Nafis Ahmed's Personal Website">
+        <meta name="keywords" content="Nafis Ahmed, Nafis, Vanderbilt, ahmednafis00">
+        <meta name="author" content="Nafis Ahmed">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nafis Ahmed</title>
+
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Crimson Text' rel='stylesheet'>
+
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/75ed1d28d1.js"></script>
+
+        <!-- CSS Styles -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body onload= "myFunction()">
+        <h1>
+        Nafis Ahmed<br>
+            <!-- Resume -->
+            <a href="resume.pdf" class="icons" target="_blank">
+                <i class="far fa-file-alt" aria-hidden="true"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/ahmednafis00" class="icons" target="_blank">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>  
+            <!-- GitHub -->
+            <a href="https://github.com/ahmednafis00" class="icons" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <!-- Lab Website -->
+            <a href="https://www.cchanglab.net/" class="icons" target="_blank">
+                <i class="fas fa-brain" aria-hidden="true"></i>
+            </a>  
+            <!-- Elon Online Bookstore -->
+            <a href="https://www.fb.com/elononlinebookstore" class="icons" target="_blank">
+                <i class="fas fa-book" aria-hidden="true"></i>
+            </a> 
+            <!-- Email -->
+            <a href="mailto:nafis.ahmed@vanderbilt.edu" class="icons">
+                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+            </a>
+        </h1>
+        
+        <!-- particles.js -->
+        <canvas class="background"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+        <script> function myFunction() {
+            Particles.init({
+                selector: '.background',
+                color: ['#003300', '#A00000'], //BD
+                connectParticles: true,
+                maxParticles: 75,
+            });
+        }
+        </script>
+    </body>
+</html>

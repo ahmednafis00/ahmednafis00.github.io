@@ -1,0 +1,35 @@
+html, body { height: 100%; }
+
+body {
+    align-items: center;
+    background-color: #000000;
+}
+  
+h1 {
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 60px;
+    color: #d3d3d3; 
+}
+  
+.icons {
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    color: #d3d3d3;
+    transition-duration: 0.3s;
+}
+  
+.icons:hover {
+    color: #808080;
+    font-size: 40px;
+}
+  
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
