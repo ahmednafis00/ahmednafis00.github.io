@@ -1,6 +1,7 @@
 html, body { height: 100%; }
 
 body {
+    overflow:hidden;
     padding-top: 80px;
     align-items: center;
     background-color: #000000;
